@@ -1,0 +1,241 @@
+﻿Сборка начата 17.12.2015 20:51:22.
+     1>Проект "c:\Users\USER\documents\visual studio 2012\Projects\Транзакции лена\Транзакции лена\Транзакции лена.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt classes.cpp clist.cpp interface.cpp main.cpp trans.cpp
+         trans.cpp
+         main.cpp
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(246): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(188): при компиляции функции-члена "void Interface<T>::menu_change(Hand &,Trans<T1> &)" класса шаблон
+                 with
+                 [
+                     T=Hand,
+                     T1=Circle<Hand>
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(92): см. ссылку на создание экземпляров функции шаблон при компиляции "void Interface<T>::menu_change(Hand &,Trans<T1> &)"
+                 with
+                 [
+                     T=Hand,
+                     T1=Circle<Hand>
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(5): при компиляции функции-члена "int Interface<T>::check(void)" класса шаблон
+                 with
+                 [
+                     T=Hand
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(37): см. ссылку на создание экземпляров функции шаблон при компиляции "int Interface<T>::check(void)"
+                 with
+                 [
+                     T=Hand
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(35): см. ссылку на создание экземпляров класса шаблон при компиляции "Interface<T>"
+                 with
+                 [
+                     T=Hand
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(14): при компиляции функции-члена "void Interface<T>::menu(void)" класса шаблон
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\main.cpp(10): см. ссылку на создание экземпляров функции шаблон при компиляции "void Interface<T>::menu(void)"
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\main.cpp(9): см. ссылку на создание экземпляров класса шаблон при компиляции "Interface<T>"
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(305): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(256): при компиляции функции-члена "void Interface<T>::menu_change(Table_Electronic &,Trans<T1> &)" класса шаблон
+                 with
+                 [
+                     T=Table_Electronic,
+                     T1=Circle<Table_Electronic>
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(92): см. ссылку на создание экземпляров функции шаблон при компиляции "void Interface<T>::menu_change(Table_Electronic &,Trans<T1> &)"
+                 with
+                 [
+                     T=Table_Electronic,
+                     T1=Circle<Table_Electronic>
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(5): при компиляции функции-члена "int Interface<T>::check(void)" класса шаблон
+                 with
+                 [
+                     T=Table_Electronic
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(43): см. ссылку на создание экземпляров функции шаблон при компиляции "int Interface<T>::check(void)"
+                 with
+                 [
+                     T=Table_Electronic
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(41): см. ссылку на создание экземпляров класса шаблон при компиляции "Interface<T>"
+                 with
+                 [
+                     T=Table_Electronic
+                 ]
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(364): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(315): при компиляции функции-члена "void Interface<T>::menu_change(Alarm &,Trans<T1> &)" класса шаблон
+                 with
+                 [
+                     T=Alarm,
+                     T1=Circle<Alarm>
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(92): см. ссылку на создание экземпляров функции шаблон при компиляции "void Interface<T>::menu_change(Alarm &,Trans<T1> &)"
+                 with
+                 [
+                     T=Alarm,
+                     T1=Circle<Alarm>
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(5): при компиляции функции-члена "int Interface<T>::check(void)" класса шаблон
+                 with
+                 [
+                     T=Alarm
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(49): см. ссылку на создание экземпляров функции шаблон при компиляции "int Interface<T>::check(void)"
+                 with
+                 [
+                     T=Alarm
+                 ]
+                 c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\interface.cpp(47): см. ссылку на создание экземпляров класса шаблон при компиляции "Interface<T>"
+                 with
+                 [
+                     T=Alarm
+                 ]
+         interface.cpp
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+         clist.cpp
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+         classes.cpp
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.h(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(74): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(76): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(88): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(96): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(133): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(152): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(161): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(175): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(184): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(245): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(247): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(248): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(303): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(325): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(327): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(328): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(330): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(339): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(353): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(409): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(411): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(412): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(486): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(489): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>c:\users\user\documents\visual studio 2012\projects\транзакции лена\транзакции лена\classes.cpp(492): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\user\documents\visual studio 2012\Projects\Транзакции лена\Debug\Транзакции лена.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\user\documents\visual studio 2012\Projects\Транзакции лена\Debug\Транзакции лена.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\user\documents\visual studio 2012\Projects\Транзакции лена\Debug\Транзакции лена.lib" /MACHINE:X86 Debug\classes.obj
+         Debug\clist.obj
+         Debug\interface.obj
+         Debug\main.obj
+         Debug\trans.obj
+         Транзакции лена.vcxproj -> c:\users\user\documents\visual studio 2012\Projects\Транзакции лена\Debug\Транзакции лена.exe
+     1>Построение проекта "c:\Users\USER\documents\visual studio 2012\Projects\Транзакции лена\Транзакции лена\Транзакции лена.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:07.49
